@@ -1,4 +1,4 @@
-Timezone component for Yii 2
+Social feed widgets for Yii 2
 =========
 
 Installation   
