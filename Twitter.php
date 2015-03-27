@@ -1,4 +1,11 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: semenov
+ * Date: 04.02.15
+ * Time: 19:25
+ */
+
 namespace yii2mod\feed;
 
 

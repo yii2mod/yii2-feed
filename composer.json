@@ -1,2 +1,22 @@
 {
+  "name": "yii2mod/feed",
+  "description": "Social feeds",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "extension"],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Dmitry Semenov",
+      "email": "disemx@gmail.com"
+    }
+  ],
+  "require": {
+    "nojimage/twitter-text-php": "dev-master",
+    "simplepie/simplepie": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "yii2mod\\feed\\": ""
+    }
+  }
 }
