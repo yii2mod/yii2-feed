@@ -39,7 +39,10 @@ Configuration:
 Usage:
 ----------------
 ```php
-    <?php echo yii2mod\feed\Twitter::widget(['screenName' => 'disem', 'postsCount' => 3]); ?>
+    <?php echo yii2mod\feed\Twitter::widget([
+        'screenName' => 'disem', 
+        'postsCount' => 3
+    ]); ?>
 ```
 
 RSS
