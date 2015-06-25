@@ -4,7 +4,7 @@ use yii\helpers\StringHelper;
 
 ?>
 <?php if (isset($items[0])) : ?>
-    <h2><?php echo $items[0]->feed->get_title() ?></h2>
+    <div class="title_rss"><?php echo $items[0]->feed->get_title() ?></div>
 <?php endif; ?>
 <?php foreach ($items as $item) : ?>
     <li class="rss-post">
