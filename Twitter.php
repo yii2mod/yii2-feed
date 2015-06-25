@@ -64,6 +64,8 @@ class Twitter extends Widget
         if (empty($this->screenName)) {
             throw new InvalidConfigException("Screen Name is empty");
         }
+        $this->screenName = preg_replace('/^@/', '', $this->screenName);
+        
         $this->initOptions();
         $cache = \Yii::$app->getCache();
         $cacheKey = serialize([$this->screenName, $this->postsCount]);
