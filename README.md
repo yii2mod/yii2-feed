@@ -9,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist yii2mod/feed "*"
+php composer.phar require --prefer-dist yii2mod/yii2-feed "*"
 ```
 
 or add
 
 ```json
-"yii2mod/feed": "*"
+"yii2mod/yii2-feed": "*"
 ```
 
 to the require section of your composer.json.
