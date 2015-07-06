@@ -2,7 +2,6 @@
 
 namespace yii2mod\feed;
 
-
 use yii\base\Widget;
 
 /**
@@ -27,6 +26,11 @@ class Rss extends Widget
      * @var int
      */
     public $to = 20;
+    /**
+     * @var array options
+     * The "wrapperTagForDate" element specifies the wrapper tag name for date.
+     */
+    public $options = null;
 
     /**
      * Runs RSS combine
@@ -41,7 +45,10 @@ class Rss extends Widget
         if ($success) {
             $feed->handle_content_type();
             $items = $feed->get_items($this->from, $this->to);
-            return $this->render('rss', ['items' => $items]);
+            return $this->render('rss', [
+                'items' => $items,
+                'options' => $this->options
+            ]);
         }
     }
 }

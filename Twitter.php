@@ -8,7 +8,6 @@
 
 namespace yii2mod\feed;
 
-
 use yii\authclient\clients\Twitter as TwitterClient;
 use yii\authclient\OAuthToken;
 use yii\base\Exception;
