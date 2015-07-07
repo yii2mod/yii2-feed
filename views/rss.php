@@ -10,7 +10,7 @@ use yii\helpers\StringHelper;
 <?php foreach ($items as $item) : ?>
     <li class="rss-post">
         <h2>
-            <?php echo Html::a($item->get_title(), $item->get_permalink()); ?>
+            <?php echo Html::a($item->get_title(), $item->get_permalink(), ['target' => '_blank']); ?>
             <?php if (isset($options['wrapperTagForDate'])): ?>
                 <?php echo Html::tag($options['wrapperTagForDate'], $item->get_date('D, d M Y H:i:s')); ?>
             <?php else: ?>
