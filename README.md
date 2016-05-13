@@ -21,9 +21,9 @@ or add
 to the require section of your composer.json.
 
 Twitter 
-=================
-Configuration:
------------------
+-------
+
+**Configuration**
 
 ```php
     //set keys at the beginning of config
@@ -36,8 +36,7 @@ Configuration:
 
 ```
 
-Usage:
-----------------
+**Usage**
 ```php
     <?php echo yii2mod\feed\Twitter::widget([
         'screenName' => 'disem', 
@@ -46,10 +45,11 @@ Usage:
 ```
 
 RSS
-=================
+---
 Allows to display multiple rss feeds as one
-Usage:
-----------------
+
+**Usage**
+
 ```php
 <?php echo yii2mod\feed\Rss::widget(['to' => 3, 'feeds' => [
 'http://somerss.com/rss.xml',
