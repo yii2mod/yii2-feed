@@ -1,6 +1,8 @@
 Social feed widgets for Yii 2
 =========
 
+[![Latest Stable Version](https://poser.pugx.org/yii2mod/yii2-feed/v/stable)](https://packagist.org/packages/yii2mod/yii2-feed) [![Total Downloads](https://poser.pugx.org/yii2mod/yii2-feed/downloads)](https://packagist.org/packages/yii2mod/yii2-feed) [![License](https://poser.pugx.org/yii2mod/yii2-feed/license)](https://packagist.org/packages/yii2mod/yii2-feed)
+
 Installation   
 ------------
 
