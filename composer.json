@@ -11,6 +11,7 @@
     }
   ],
   "require": {
+    "yiisoft/yii2": "*",
     "nojimage/twitter-text-php": "dev-master",
     "simplepie/simplepie": "dev-master"
   },
